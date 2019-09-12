@@ -1,0 +1,11 @@
+import os 
+  
+restart = input("Ready to Restart? (yes / no): ") 
+  
+if restart == 'no': 
+    exit() 
+else: 
+    os.system("shutdown /r /t 1") 
+#r for restart 
+#s for shutdown 
+#t for time taking 
